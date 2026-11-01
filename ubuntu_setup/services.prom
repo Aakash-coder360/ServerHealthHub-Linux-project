@@ -1,0 +1,6 @@
+# HELP service_up Whether the service is active (1=up, 0=down)
+# TYPE service_up gauge
+service_up{name="ssh"} 0
+service_up{name="cron"} 1
+service_up{name="prometheus"} 1
+service_up{name="grafana-server"} 0
